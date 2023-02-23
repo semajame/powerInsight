@@ -1,0 +1,153 @@
+@media screen and (max-width: 600px) {
+    .desktop-nav ul li a{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        max-width: none;
+        cursor: pointer;
+    }
+
+    .mobile-nav{
+        display: block;
+    }
+
+    .header-container{
+        margin: 3rem 2rem;
+    }
+
+    span{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: block;
+        position: absolute;
+        top: -50rem;
+        background-color: white;
+        left: 5%;
+        right: 5%;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 4px 3px 18px -1px rgba(0,0,0,0.75);
+        transition: 1s ease;
+    }
+
+    .mobile-nav.active{
+        top: 7rem;
+        
+    }
+
+    .mobile-nav ul{
+        list-style: none;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .mobile-nav li{
+        padding: 0 0 1rem 0;
+    }
+
+    hr{
+        margin-bottom: 1rem;
+        border: 1px solid rgba(128, 128, 128, 0.233);
+    }
+
+    .mobile-nav ul li a{
+        color: var(--cvdb);
+        text-decoration: none;
+        font-family: var(--ff1);
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 0.1rem;
+    }
+
+    .login{
+        color: red;
+    }
+
+
+    /*HERO*/
+        
+    main{
+        flex-direction: column-reverse;
+        font-family: var(--ff1);
+        margin: 8rem 2rem;
+    }
+
+
+    .left-content{
+        margin-top: 3rem;
+    }
+
+    .new{
+        font-size: var(--fs1);
+        margin-right: 10px;
+    }
+
+    .left-content h3{
+        font-family: var(--ff1);
+        font-size: var(--fs0);
+        text-transform: uppercase;
+        letter-spacing: 0.4rem;
+        color: var(--cgb);
+    }
+
+    .left-content h1{
+        margin: 2rem 0 1.5rem 0;
+        text-transform: uppercase;
+        font-size: var(--fs4);
+        color: var(--cvdb);
+        max-width: 100%;
+        line-height: 3rem;
+    }
+
+    .left-content p{
+        font-size: var(--fs1);
+        color: var(--cdgb);
+        font-family: var(--ff2);
+        max-width: 300px;
+        margin-bottom: 3rem;
+    }
+
+    .left-button{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .left-button button{
+        font-family: var(--ff0);
+    }
+
+    .left-button button:hover{
+        opacity: 70%;
+        transition: 0.5s ease;
+    }
+
+    .left-button span{
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        color: var(--cgb);
+    }
+
+    .preview{
+        display: block;
+    }
+
+    .right-content{
+        margin-right: 0;
+    }
+
+    .right-content img{
+        margin-top: -524px;
+        max-width: 500px;
+    }
+
+    .right-background{
+        top: -240px;
+        right: -158px;
+        height: 440px;
+    }
+}
